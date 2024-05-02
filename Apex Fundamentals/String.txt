@@ -1,0 +1,32 @@
+String sg = ('tanmay is my brother');
+System.debug('Relation: '+sg);
+
+//capitalize
+System.debug('New: '+sg.capitalize());
+
+//contains
+System.debug('Contains? : '+sg.contains('bro'));
+
+
+//Uppercase
+System.debug('Uppercase: '+sg.toUpperCase());
+
+
+//lowercase
+System.debug('Lowercase: '+sg.toLowerCase());
+
+//equals
+System.debug('Equals: '+sg.equals('brother'));
+System.debug('Equals: '+sg.equals('brother'));
+String str = ('Varsha');
+String str1 = ('vaRSha');
+System.debug('Equals: '+str.equals(str1));
+System.debug('Converting case: '+str.toLowerCase().equals(str1.toLowerCase()));
+
+
+//replace
+System.debug('Replace: '+sg.replace('bro','sis'));
+
+
+//split
+System.debug('Split: '+sg.split(' '));
