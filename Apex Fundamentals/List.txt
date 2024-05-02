@@ -1,0 +1,63 @@
+/*List is a ordered collection of elements of same datatype.
+new:- instance of the class to allocate memory it's used for all non primitive datatypes.
+*/
+
+Integer roll = 08;
+System.debug(roll);
+
+Integer roll1 = 19;
+System.debug(roll1);
+
+Integer roll2 = 29;
+System.debug(roll2);
+
+Integer roll3 = 07;
+System.debug(roll3);
+
+Integer roll4 = 12;
+System.debug(roll4);
+
+
+List <integer> rollnum = new List<integer>{19,22,08,07,29,06};
+    System.debug(rollnum);
+
+rollnum.add(10);
+rollnum.add(26);
+rollnum.add(23);
+rollnum.add(13);
+System.debug(rollnum);
+
+//index starts from 0
+//list using index 1
+integer rolls = rollnum.get(2);
+System.debug(rolls);
+System.debug(rollnum.get(2));
+
+
+//list using index 5
+rollnum.add(6,11);
+System.debug(rollnum);
+
+//size of list
+System.debug(rollnum.size());
+
+
+// remove item using index 7 from list
+rollnum.remove(7);
+System.debug(rollnum);
+System.debug(rollnum.size());
+
+
+//update the value in list
+rollnum.set(8,26);
+System.debug(rollnum);
+
+//clear list
+rollnum.clear();
+System.debug(rollnum);
+System.debug(rollnum.size());
+
+
+
+
+
