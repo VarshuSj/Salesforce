@@ -1,0 +1,28 @@
+String a = 'Hello World';
+System.debug(a);
+
+boolean z = true;
+System.debug(z);
+boolean y = false;
+System.debug(y);
+
+integer s = 12345;
+System.debug(s);
+
+long d = 12345678901234L;
+System.debug(d);
+
+decimal tan = 3.14;
+System.debug(tan);
+
+double Ani = 196328/2176;
+System.debug(Ani);
+
+Date tdate = Date.newInstance(2024, 5, 02);
+System.debug(tdate);
+
+Time tim = Time.newInstance(5,60,0,0);
+System.debug(tim);
+
+DateTime dt = DateTime.newInstance(2024,05,02,04,0,0);
+System.debug(dt);
