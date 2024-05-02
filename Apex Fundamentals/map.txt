@@ -1,0 +1,54 @@
+/* Similar to list and set map also stores the collection data but it stores in the form of key value pair.
+keys cannot be duplicate but values can be
+doesn't store indexes
+first value will be keys and second will be values according to that we need to declare datatype
+*/
+Map <integer, String> classs2024 = new Map<integer, String>();
+
+//add item
+classs2024.put(07,'Varsha');
+System.debug(classs2024);
+
+classs2024.put(08,'Shree');
+classs2024.put(26,'Sj');
+classs2024.put(22,'Anjana');
+classs2024.put(19,'Tanya');
+classs2024.put(10,'Shriansh');
+
+System.debug(classs2024);
+
+classs2024.put(13,'Shriansh');
+System.debug(classs2024);
+
+
+//update/override
+classs2024.put(10,'Sharad');
+System.debug(classs2024);
+
+//get the value using key
+System.debug(classs2024.get(13));
+
+//removing item
+classs2024.remove(10);
+System.debug(classs2024);
+
+//getting all keys
+Set <integer> rollnum= classs2024.keySet();
+System.debug(rollnum);
+//or
+System.debug(classs2024.keySet());
+
+//getting the values
+List <String> fam = classs2024.values();
+System.debug(fam);
+//or
+System.debug(classs2024.values());
+
+//check if map has key
+System.debug(classs2024.containsKey(26));
+System.debug(classs2024.containsKey(10));
+
+
+
+
+
