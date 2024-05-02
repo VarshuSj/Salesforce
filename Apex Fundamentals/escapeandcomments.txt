@@ -1,0 +1,18 @@
+//escaping ''
+String str= 'My another family\' name is \'GenZ family\'';
+System.debug(str);
+
+
+//newline
+String str= 'My another family\' name is \'GenZ family\'\n We met at Helly gym';
+System.debug(str);
+
+//this is single line comment
+
+*/
+This
+is
+a
+multiline 
+comments
+*/
