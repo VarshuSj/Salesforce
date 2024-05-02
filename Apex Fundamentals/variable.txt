@@ -1,2 +1,3 @@
+//declaration any datatype with naming is know as variables 
 String a = 'Pune';
     System.debug(a);
