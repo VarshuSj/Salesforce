@@ -1,0 +1,36 @@
+/* Set:- unlike list set are unordered collection of element of same datetype, not sorted with index.
+it doesn't use index
+doesn't allow duplicate data, one single item at a set, it store blank value as well
+*/
+
+Set <integer> rollnum = new Set<integer>{19,22,08,07,29,06};
+    System.debug(rollnum);
+
+rollnum.add(10);
+rollnum.add(26);
+rollnum.add(23);
+rollnum.add(13);
+System.debug(rollnum);
+
+//adding duplicate value - NOT ALLOWED
+rollnum.add(23);
+System.debug(rollnum);
+
+//checking an item if set contains or not
+System.debug(rollnum.contains(19));
+System.debug(rollnum.contains(5576));
+
+//remove/delete a value from set
+rollnum.remove(23);
+System.debug(rollnum);
+
+//size of set
+System.debug(rollnum.size());
+
+//empty or not
+System.debug(rollnum.isEmpty());
+
+//clear
+rollnum.clear();
+System.debug(rollnum);
+System.debug(rollnum.isEmpty());
