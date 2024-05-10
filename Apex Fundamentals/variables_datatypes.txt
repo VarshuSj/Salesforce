@@ -1,0 +1,10 @@
+//
+
+List <String> apexs = new List <String> {'Demystifying Apex Collections','Datatypes & Variables'};
+List <String> lights = new List <String> {'Events in Aura framework','Developing reusable components'};
+        
+Map <String, List<String>> both = new Map<String,List<String>>();
+//Adding both outputs
+both.put('Apex',apexs);
+both.put('Lightning', lights);
+System.debug(both);
