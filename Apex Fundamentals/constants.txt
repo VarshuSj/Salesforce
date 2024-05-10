@@ -1,0 +1,22 @@
+//constants deciml
+Decimal py = 3.14;
+System.debug(py);
+
+//updating the value is allowed
+py = 2.1234;
+System.debug(py);
+
+
+//when we don't want to update the value and fix it up using final keyword
+Final Decimal PZ;
+System.debug(PZ);
+
+// initialize
+PZ = 2.1234;
+System.debug(PZ);
+
+// update
+PZ = 3.14;
+System.debug(PZ);
+
+// error will come it'll not let it to update
