@@ -1,0 +1,119 @@
+//assignment operator
+Integer x = 10;
+System.debug(x);
+
+//addition operator
+x = x+15;
+System.debug(x);
+
+//subtraction operator
+x = x-7;
+System.debug(x);
+
+//multiplication operator
+x = x*10;
+System.debug(x);
+
+//division operator
+x = x/5;
+System.debug(x);
+
+//increment operator
+//same as //x = x+1
+x++;
+System.debug(x);
+
+//decrement operator
+//x = x-1
+x--;
+System.debug(x);
+
+//addition assignment operator
+x += 5; // x = x+5
+System.debug('addition assignment operator -' +x);
+x += 10;// x = x+10
+System.debug('addition assignment operator -' +x);
+x += 1; // x++ or x = x+1
+System.debug('addition assignment operator -' +x);
+
+//subtraction assignment operator
+x -= 5; // x = x+5
+System.debug('subtraction assignment operator -' +x);
+x -= 1; // x-- or x = x-1
+System.debug('subtraction assignment operator -' +x); 
+
+//multiplication assignment operator
+x *= 5; // x = x*5
+System.debug('multiplication assignment operator -'+ x);
+
+//division assignment operator
+x /= 5; // x = x/5
+System.debug('division assignment operator - ' + x);
+
+//using addition operators on string
+String hi = 'Hello';
+String duniya = 'World';
+String space = ' ';
+    
+System.debug(hi + duniya);   
+System.debug(hi + space + duniya);
+
+Boolean first = true;
+Boolean second = false;
+Boolean result;
+
+//AND operator
+result = first && second; // first and second true thn only true else false
+System.debug('And operator - ' + result);
+
+// OR operator
+result = first || second;// first and second false thn only false else true
+System.debug('OR operator - ' + result);
+
+//equality operater
+result = first == second; //both have same value thn true else false
+System.debug('Equality operator boolean- ' + result);
+
+result = 5 == 5;
+System.debug('Equality operator integer- ' + result);
+
+result = ('Hi' == 'Hello');
+System.debug('Equality operator string- ' + result);
+
+// less than operator
+result = (5 < 6);
+System.debug('Less than operator- ' + result);
+
+//greater than operator
+result = (5 > 6);
+System.debug('Greater than operator- ' + result);
+
+// less than or equal operator
+result = (5 <= 6);
+System.debug('Less than or equal operator- ' + result);
+result = (6 <= 6);
+System.debug('Less than or equal operator 2- ' + result);
+
+//greater than or equal to operator
+result = (5 >= 6);
+System.debug('Greater than or equal to operator- ' + result);
+result = (6 >= 6);
+System.debug('Greater than or equal to operator 2- ' + result);
+
+//NOT operator
+System.debug('NOT operator before -' + first);
+first = !first;
+System.debug('NOT operator after -' + first);
+
+// Ternary operator
+
+String greeting =  '';
+Integer hr = 11;
+
+// if hour is less than 12 greeting shud b morning else afternoon
+greeting = (hr < 12) ? 'Good morning' : 'Good afternoon'; 
+System.debug('Ternary operator 10 -' + greeting);
+
+hr = 13;
+greeting = (hr < 12) ? 'Good morning' : 'Good afternoon'; 
+System.debug('Ternary operator 13 -' + greeting);
