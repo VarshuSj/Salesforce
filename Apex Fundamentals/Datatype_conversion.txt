@@ -1,0 +1,7 @@
+String ml = '56';
+String ai = '89';
+String ds = '76';
+Integer total = Integer.valueof(ml)+Integer.valueof(ai)+Integer.valueof(ds);
+System.debug(total);
+String totals = String.valueof(Integer.valueof(ml)+Integer.valueof(ai)+Integer.valueof(ds));//When we don't want to convert datatype
+System.debug(totals);
